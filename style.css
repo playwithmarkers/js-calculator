@@ -1,0 +1,82 @@
+body {
+    background-color: #000000;
+    margin: 100px auto;
+    width: 252.44px;
+}
+
+.add__value {
+    color: #F2F2F2;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    padding: 0px;
+
+}
+
+.add__btn {
+    background-color: #737373;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+
+}
+
+.change__font {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.change__icon {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.clear__button {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#equals {
+    grid-column: 3 / 5;
+    grid-row: 5 / 6;
+}
+
+.container {
+    padding-top: 15px;
+}
+
+.add__btn:active {
+    background-color: #D9D9D9;
+    color: #404040;
+}
+
+#division:focus {
+    background-color: #D9D9D9;
+    color: #404040;
+}
+
+#multiplication:focus {
+    background-color: #D9D9D9;
+    color: #404040;
+}
+
+#addition:focus, #addition:active {
+    background-color: #D9D9D9;
+    color: #404040;
+}
+
+#subtraction:focus {
+    background-color: #D9D9D9;
+    color: #404040;
+}
+
+.add__btn:focus {
+    outline: 0;
+}
